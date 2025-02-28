@@ -2,3 +2,24 @@
     padding: 0;
     margin: 0;
 }
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 15px 500px;
+}
+header h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.8rem;
+}
+header a {
+    text-decoration: none;
+}
+header p {
+    display: inline;
+    font-size: 1.2rem;
+    color: gray;
+    margin: 10px;
+
+}
