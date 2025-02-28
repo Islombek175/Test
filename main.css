@@ -84,27 +84,3 @@ img {
     color:#007bff;
     border: 1px  solid #007bff;
 }
-
-@media (max-width: 576px) {
-    body {
-        max-width: ;
-    }
-}
-
-@media (min-width: 577px) and (max-width: 992px) {
-    body {
-        background-color: lightgreen;
-    }
-}
-
-@media (min-width: 993px) and (max-width: 1200px) {
-    body {
-        background-color: lightcoral;
-    }
-}
-
-@media (min-width: 1201px) {
-    body {
-        background-color: lightgoldenrodyellow;
-    }
-}
