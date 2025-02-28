@@ -1,6 +1,7 @@
 * {
     padding: 0;
     margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 header {
@@ -21,5 +22,59 @@ header p {
     font-size: 1.2rem;
     color: gray;
     margin: 10px;
+}
 
+section {
+    padding: 200px 20%;
+}
+
+.container-1{
+    margin: 10px;
+    display: flex;
+}
+
+.container-2 {
+    margin: 10px;
+
+}
+
+img {
+    border-radius: 50%;
+    width: 150px;
+}
+
+.first-h1 {
+    font-weight: bold;
+    font-size: 2rem;
+    margin-left: 20px;
+}
+
+.second-h1 {
+    font-weight: 500;
+    color: gray;
+    font-size: 2rem;
+    margin-left: 20px;
+}
+
+.container-2 p {
+    font-size: 1.2rem;
+    margin-top: 20px;
+}
+
+.button-1, .button-2 {
+    margin-top: 20px;
+    background-color: #007bff;
+    color: white;
+    font-weight: 900;
+    font-size: 1.2rem;
+    width: 150px;
+    height: 60px;
+    border: white;
+    border-radius: 10px;   
+}
+
+.button-2 {
+    background-color: white;
+    color:#007bff;
+    border: 1px  solid #007bff;
 }
