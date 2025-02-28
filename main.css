@@ -56,9 +56,15 @@ img {
     margin-left: 20px;
 }
 
-.container-2 p {
+.container-2 p  {
     font-size: 1.2rem;
     margin-top: 20px;
+}
+
+.section-box2 p a {
+    margin-left: 20px;
+    color: black;
+    font-size: 2rem;
 }
 
 .button-1, .button-2 {
@@ -77,4 +83,28 @@ img {
     background-color: white;
     color:#007bff;
     border: 1px  solid #007bff;
+}
+
+@media (max-width: 576px) {
+    body {
+        max-width: ;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 992px) {
+    body {
+        background-color: lightgreen;
+    }
+}
+
+@media (min-width: 993px) and (max-width: 1200px) {
+    body {
+        background-color: lightcoral;
+    }
+}
+
+@media (min-width: 1201px) {
+    body {
+        background-color: lightgoldenrodyellow;
+    }
 }
